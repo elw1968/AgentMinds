@@ -27,6 +27,35 @@ Welcome! This repository is your starting point for the **Agentic AI App Hackath
    docker build -t agentic-agent .
    docker run --rm -it agentic-agent bash
 
+## 📦 Install Dependencies and Run the App
+
+Follow these simple steps after setting up your conda environment:
+
+### 1. 🛠 Install Required Python Packages
+
+Install all the Python libraries listed in the `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 2. 🧪 Export the Environment (Optional but Recommended)
+
+Export your conda environment to an `environment.yml` file for sharing or future reuse:
+
+```bash
+conda env export > environment.yml
+```
+
+### 3. 🚀 Launch the Streamlit App
+
+Run the application using Streamlit:
+
+```bash
+streamlit run src/web_app.py
+```
+
+
 ## 📂 Folder Layout
 
 ![Folder Layout Diagram](images/folder-githb.png)
