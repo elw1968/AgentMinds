@@ -4,7 +4,7 @@ from executor import execute, get_trending_news
 from memory import store_memory, get_memory
 
 st.set_page_config(page_title="Fake News Detection Agent 3.0", page_icon="📰", layout="wide")
-st.title("📰 Fake News Detection Agent 3.0")
+st.title("📰 Fake News Detection Agent 2.0")
 
 tab1, tab2 = st.tabs(["✅ Verify a Claim", "🔥 Latest Fake / Unverified News"])
 

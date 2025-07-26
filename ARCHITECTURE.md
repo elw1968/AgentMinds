@@ -65,3 +65,5 @@ This document describes the high-level architecture of our Agentic AI App built 
 - Real-time evidence → More reliable fact-checking
 - Agentic workflow (Plan → Execute → Memory → Output)
 - Interactive UI → User-friendly verification process
+
+![diagram-export-7-26-2025-7_40_18-PM.png](images%2Fdiagram-export-7-26-2025-7_40_18-PM.png)
